@@ -3,7 +3,7 @@ from unittest.mock import patch, mock_open
 import hashlib
 import itertools
 import string
-from main import hash_password, brute_force_crack, dictionary_attack  
+from password_cracker import hash_password, brute_force_crack, dictionary_attack  
 
 class TestPasswordCrackingMethods(unittest.TestCase):
     
